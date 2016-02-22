@@ -1,0 +1,25 @@
+body {
+	background-color: gray;
+  margin: 0;
+  width: 100%
+}
+nav {
+  background-color: #333;
+}
+a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover {
+  background-color: black;
+}
+@media screen and (max-width: 480px) {
+  a {
+    display: block;
+    clear: both;
+    border: 1px solid black;
+  }
+
+}
